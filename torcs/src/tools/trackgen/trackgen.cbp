@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="trackgen" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/tools/trackgen/Release/trackgen" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-finline-functions" />
+					<Add directory="../../../export/include" />
+					<Add directory="../../windows/include" />
+					<Add directory="../../.." />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="sl" />
+					<Add library="client" />
+					<Add library="robottools" />
+					<Add library="sg" />
+					<Add library="ssg" />
+					<Add library="ssggraphlib" />
+					<Add library="txml" />
+					<Add library="ul" />
+					<Add library="libpng15_vs6static" />
+					<Add library="tgf" />
+					<Add directory="../../../export/lib" />
+					<Add directory="../../windows/lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\trackgen.exe $(WkspDir)\runtime" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/tools/trackgen/Debug/trackgen" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add directory="../../../export/include" />
+					<Add directory="../../windows/include" />
+					<Add directory="../../.." />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="sl" />
+					<Add library="client" />
+					<Add library="robottools" />
+					<Add library="sg" />
+					<Add library="ssg" />
+					<Add library="ssggraphlib" />
+					<Add library="txml" />
+					<Add library="ul" />
+					<Add library="libpng15_vs6static" />
+					<Add library="tgf" />
+					<Add directory="../../../export/libd" />
+					<Add directory="../../windows/lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\trackgen.exe $(WkspDir)\runtimed" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../../windows/windowsspec.cpp" />
+		<Unit filename="ac3d.cpp" />
+		<Unit filename="easymesh.cpp" />
+		<Unit filename="elevation.cpp" />
+		<Unit filename="maintrackgen.cpp" />
+		<Unit filename="objects.cpp" />
+		<Unit filename="raceline.cpp" />
+		<Unit filename="relief.cpp" />
+		<Unit filename="track.cpp" />
+		<Unit filename="trackgen.h" />
+		<Unit filename="util.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

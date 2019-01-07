@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="solid" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/modules/simu/simuv2/SOLID-2.0/Release/solid" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-finline-functions" />
+					<Add directory="../../../../../export/include" />
+					<Add directory="../../../../libs/torcs" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\*.lib $(WkspDir)\export\lib" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/modules/simu/simuv2/SOLID-2.0/Debug/solid" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-DDEBUG" />
+					<Add option="-DDEBUG_OUT" />
+					<Add directory="../../../../../export/include" />
+					<Add directory="../../../../libs/torcs" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\*.lib $(WkspDir)\export\libd" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="src/AlgoTable.h" />
+		<Unit filename="src/BBox.h" />
+		<Unit filename="src/BBoxTree.cpp" />
+		<Unit filename="src/BBoxTree.h" />
+		<Unit filename="src/Box.cpp" />
+		<Unit filename="src/Box.h" />
+		<Unit filename="src/C-api.cpp" />
+		<Unit filename="src/Complex.cpp" />
+		<Unit filename="src/Complex.h" />
+		<Unit filename="src/Cone.cpp" />
+		<Unit filename="src/Cone.h" />
+		<Unit filename="src/Convex.cpp" />
+		<Unit filename="src/Convex.h" />
+		<Unit filename="src/Cylinder.cpp" />
+		<Unit filename="src/Cylinder.h" />
+		<Unit filename="src/Encounter.h" />
+		<Unit filename="src/Endpoint.cpp" />
+		<Unit filename="src/Endpoint.h" />
+		<Unit filename="src/IndexArray.h" />
+		<Unit filename="src/Object.cpp" />
+		<Unit filename="src/Object.h" />
+		<Unit filename="src/Polygon.cpp" />
+		<Unit filename="src/Polygon.h" />
+		<Unit filename="src/Polyhedron.cpp" />
+		<Unit filename="src/Polyhedron.h" />
+		<Unit filename="src/Polytope.h" />
+		<Unit filename="src/RespTable.cpp" />
+		<Unit filename="src/RespTable.h" />
+		<Unit filename="src/Response.cpp" />
+		<Unit filename="src/Response.h" />
+		<Unit filename="src/Shape.h" />
+		<Unit filename="src/Simplex.cpp" />
+		<Unit filename="src/Simplex.h" />
+		<Unit filename="src/Sphere.cpp" />
+		<Unit filename="src/Sphere.h" />
+		<Unit filename="src/Transform.cpp" />
+		<Unit filename="src/Transform.h" />
+		<Unit filename="src/VertexBase.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

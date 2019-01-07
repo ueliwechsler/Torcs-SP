@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ssggraphlib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/modules/graphic/ssggraph/Release/ssggraphlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-finline-functions" />
+					<Add directory="../../../../export/include" />
+					<Add directory="../../../windows/include" />
+					<Add directory="../../../.." />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\*.lib ..\..\..\..\export\lib" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/modules/graphic/ssggraph/Debug/ssggraphlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-DDEBUG" />
+					<Add option="-DDEBUG_OUT" />
+					<Add directory="./" />
+					<Add directory="../../../../export/include" />
+					<Add directory="../../../windows/include" />
+					<Add directory="../../../.." />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\*.lib ..\..\..\..\export\libd" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="CarSoundData.cpp" />
+		<Unit filename="OpenalSoundInterface.cpp" />
+		<Unit filename="PlibSoundInterface.cpp" />
+		<Unit filename="SoundInterface.cpp" />
+		<Unit filename="TorcsSound.cpp" />
+		<Unit filename="grboard.cpp" />
+		<Unit filename="grboard.h" />
+		<Unit filename="grcam.cpp" />
+		<Unit filename="grcam.h" />
+		<Unit filename="grcar.cpp" />
+		<Unit filename="grcar.h" />
+		<Unit filename="grcarlight.cpp" />
+		<Unit filename="grloadac.cpp" />
+		<Unit filename="grmain.cpp" />
+		<Unit filename="grmain.h" />
+		<Unit filename="grmultitexstate.cpp" />
+		<Unit filename="grmultitexstate.h" />
+		<Unit filename="grscene.cpp" />
+		<Unit filename="grscene.h" />
+		<Unit filename="grscreen.cpp" />
+		<Unit filename="grshadow.cpp" />
+		<Unit filename="grshadow.h" />
+		<Unit filename="grskidmarks.cpp" />
+		<Unit filename="grskidmarks.h" />
+		<Unit filename="grsmoke.cpp" />
+		<Unit filename="grsmoke.h" />
+		<Unit filename="grsound.cpp" />
+		<Unit filename="grsound.h" />
+		<Unit filename="grssgext.h" />
+		<Unit filename="grtexture.cpp" />
+		<Unit filename="grtrackmap.cpp" />
+		<Unit filename="grtrackmap.h" />
+		<Unit filename="grutil.cpp" />
+		<Unit filename="grutil.h" />
+		<Unit filename="grvtxtable.cpp" />
+		<Unit filename="grvtxtable.h" />
+		<Unit filename="ssggraph.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

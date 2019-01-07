@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wtorcs" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/windows/Release/wtorcs" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-finline-functions" />
+					<Add directory="../../export/include" />
+					<Add directory="../windows/include" />
+					<Add directory="../.." />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="client" />
+					<Add library="txml" />
+					<Add library="libpng15_vs6static" />
+					<Add library="tgf" />
+					<Add directory="../../export/lib" />
+					<Add directory="../windows/lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\wtorcs.exe $(WkspDir)\runtime" />
+					<Add after="copy dll\glut32.dll $(WkspDir)\runtime" />
+					<Add after="copy dll\OpenAL32.dll $(WkspDir)\runtime" />
+					<Add after="copy dll\libogg.dll $(WkspDir)\runtime" />
+					<Add after="copy dll\libvorbis.dll $(WkspDir)\runtime" />
+					<Add after="copy dll\libvorbisfile.dll $(WkspDir)\runtime" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/windows/Debug/wtorcs" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-DDEBUG" />
+					<Add option="-DDEBUG_OUT" />
+					<Add directory="../../export/include" />
+					<Add directory="../windows/include" />
+					<Add directory="../.." />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="client" />
+					<Add library="txml" />
+					<Add library="libpng15_vs6static" />
+					<Add library="tgf" />
+					<Add directory="../../export/libd" />
+					<Add directory="../windows/lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\wtorcs.exe $(WkspDir)\runtimed" />
+					<Add after="copy dll\glut32.dll $(WkspDir)\runtimed" />
+					<Add after="copy dll\OpenAL32.dll $(WkspDir)\runtimed" />
+					<Add after="copy dll\libogg.dll $(WkspDir)\runtimed" />
+					<Add after="copy dll\libvorbis.dll $(WkspDir)\runtimed" />
+					<Add after="copy dll\libvorbisfile.dll $(WkspDir)\runtimed" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../../Ticon.ico" />
+		<Unit filename="../../torcs.rc" />
+		<Unit filename="../libs/torcs/driverconfig.h" />
+		<Unit filename="../libs/torcs/exitmenu.h" />
+		<Unit filename="../libs/torcs/mainmenu.h" />
+		<Unit filename="../libs/torcs/optionmenu.h" />
+		<Unit filename="../libs/torcs/raceman.h" />
+		<Unit filename="../libs/torcs/splash.h" />
+		<Unit filename="../libs/torcs/torcs.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="osspec.h" />
+		<Unit filename="windowsspec.cpp" />
+		<Unit filename="windowsspec.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

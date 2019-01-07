@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="client" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/libs/client/Release/client" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DCLIENT_EXPORTS" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-finline-functions" />
+					<Add directory="../../../export/include" />
+					<Add directory="../../interfaces" />
+					<Add directory="../../windows/include" />
+					<Add directory="../../.." />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="txml" />
+					<Add library="libpng15_vs6static" />
+					<Add library="sg" />
+					<Add library="ul" />
+					<Add library="tgf" />
+					<Add library="robottools" />
+					<Add library="ssggraphlib" />
+					<Add library="ssg" />
+					<Add library="ssgAux" />
+					<Add library="sl" />
+					<Add library="OpenAL32" />
+					<Add library="Alut" />
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add library="libvorbisfile" />
+					<Add library="zlib1_vs6static" />
+					<Add library="js" />
+					<Add library="Advapi32" />
+					<Add directory="../../../export/lib" />
+					<Add directory="../../windows/lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\*.dll $(WkspDir)\runtime" />
+					<Add after="copy $(TargetDir)\*.lib $(WkspDir)\export\lib" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="/home/ueli/SimSoft/code-torcs/torcs/torcs/src/libs/client/Debug/client" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DCLIENT_EXPORTS" />
+					<Add option="-mcpu=pentiumpro -D_M_IX86=600" />
+					<Add option="-DDEBUG" />
+					<Add option="-DDEBUG_OUT" />
+					<Add directory="../../../export/include" />
+					<Add directory="../../windows/include" />
+					<Add directory="../../interfaces" />
+					<Add directory="../../.." />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="txml" />
+					<Add library="libpng15_vs6static" />
+					<Add library="sg" />
+					<Add library="ul" />
+					<Add library="tgf" />
+					<Add library="robottools" />
+					<Add library="ssggraphlib" />
+					<Add library="ssg" />
+					<Add library="ssgAux" />
+					<Add library="sl" />
+					<Add library="OpenAL32" />
+					<Add library="Alut" />
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add library="libvorbisfile" />
+					<Add library="zlib1_vs6static" />
+					<Add library="js" />
+					<Add library="Advapi32" />
+					<Add directory="../../../export/libd" />
+					<Add directory="../../windows/lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="copy $(TargetDir)\*.dll $(WkspDir)\runtimed" />
+					<Add after="copy $(TargetDir)\*.lib $(WkspDir)\export\libd" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../confscreens/controlconfig.cpp" />
+		<Unit filename="../confscreens/driverconfig.cpp" />
+		<Unit filename="../confscreens/graphconfig.cpp" />
+		<Unit filename="../confscreens/joystickconfig.cpp" />
+		<Unit filename="../confscreens/mouseconfig.cpp" />
+		<Unit filename="../confscreens/openglconfig.cpp" />
+		<Unit filename="../confscreens/simuconfig.cpp" />
+		<Unit filename="../confscreens/soundconfig.cpp" />
+		<Unit filename="../musicplayer/OggSoundStream.cpp" />
+		<Unit filename="../musicplayer/OpenALMusicPlayer.cpp" />
+		<Unit filename="../musicplayer/SoundStream.cpp" />
+		<Unit filename="../musicplayer/musicplayer.cpp" />
+		<Unit filename="../raceengineclient/raceengine.cpp" />
+		<Unit filename="../raceengineclient/racegl.cpp" />
+		<Unit filename="../raceengineclient/raceinit.cpp" />
+		<Unit filename="../raceengineclient/racemain.cpp" />
+		<Unit filename="../raceengineclient/racemanmenu.cpp" />
+		<Unit filename="../raceengineclient/raceresults.cpp" />
+		<Unit filename="../raceengineclient/racestate.cpp" />
+		<Unit filename="../raceengineclient/singleplayer.cpp" />
+		<Unit filename="../racescreens/carsetupscreen.cpp" />
+		<Unit filename="../racescreens/driverselect.cpp" />
+		<Unit filename="../racescreens/fileselect.cpp" />
+		<Unit filename="../racescreens/loadingscreen.cpp" />
+		<Unit filename="../racescreens/miscscreens.cpp" />
+		<Unit filename="../racescreens/pitmenu.cpp" />
+		<Unit filename="../racescreens/racemenu.cpp" />
+		<Unit filename="../racescreens/results.cpp" />
+		<Unit filename="../racescreens/trackselect.cpp" />
+		<Unit filename="../tgfclient/control.cpp" />
+		<Unit filename="../tgfclient/glfeatures.cpp" />
+		<Unit filename="../tgfclient/gui.cpp" />
+		<Unit filename="../tgfclient/guibutton.cpp" />
+		<Unit filename="../tgfclient/guiedit.cpp" />
+		<Unit filename="../tgfclient/guifont.cpp" />
+		<Unit filename="../tgfclient/guihelp.cpp" />
+		<Unit filename="../tgfclient/guiimage.cpp" />
+		<Unit filename="../tgfclient/guilabel.cpp" />
+		<Unit filename="../tgfclient/guimenu.cpp" />
+		<Unit filename="../tgfclient/guiobject.cpp" />
+		<Unit filename="../tgfclient/guiscrollbar.cpp" />
+		<Unit filename="../tgfclient/guiscrollist.cpp" />
+		<Unit filename="../tgfclient/img.cpp" />
+		<Unit filename="../tgfclient/screen.cpp" />
+		<Unit filename="../tgfclient/tgfclient.cpp" />
+		<Unit filename="client.def">
+			<Option target="Win32 Debug" />
+		</Unit>
+		<Unit filename="client.h" />
+		<Unit filename="driverconfig.h" />
+		<Unit filename="entry.cpp" />
+		<Unit filename="exitmenu.cpp" />
+		<Unit filename="exitmenu.h" />
+		<Unit filename="mainmenu.cpp" />
+		<Unit filename="mainmenu.h" />
+		<Unit filename="optionmenu.cpp" />
+		<Unit filename="optionmenu.h" />
+		<Unit filename="splash.cpp" />
+		<Unit filename="splash.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
