@@ -1,0 +1,8 @@
+/home/ueli/.torcs
+
+sudo make install
+torcs 
+#now all changes were overwritten
+#run bash file!
+chmod +x set_s3.sh
+./set_s3.sh
