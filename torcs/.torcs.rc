@@ -1,2 +1,2 @@
-TORCS_BASE = /home/wueli/Torcs/torcs
-MAKE_DEFAULT = /home/wueli/Torcs/torcs/Make-default.mk
+TORCS_BASE = /home/wueli/Torcs-SP/torcs
+MAKE_DEFAULT = /home/wueli/Torcs-SP/torcs/Make-default.mk

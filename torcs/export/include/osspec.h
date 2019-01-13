@@ -1,1 +1,1 @@
-/home/wueli/Torcs/torcs/src/linux/osspec.h
+/home/wueli/Torcs-SP/torcs/src/linux/osspec.h

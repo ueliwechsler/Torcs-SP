@@ -1,1 +1,1 @@
-/home/wueli/Torcs/torcs/src/interfaces/playerpref.h
+/home/wueli/Torcs-SP/torcs/src/interfaces/playerpref.h

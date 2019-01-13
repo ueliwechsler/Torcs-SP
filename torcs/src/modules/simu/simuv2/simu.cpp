@@ -520,7 +520,7 @@ void InitOutputFiles(int nCars)
 {
 	for(int i = 0; i < nCars; i++)
 	{
-		std::string filename = "/home/ueli/SimSoft/code-torcs/torcs/torcs/data/sim/";
+		std::string filename = "/home/wueli/Torcs-SP/data/car";
 		filename += std::to_string(i);
 		filename += ".csv";
 		outputFile[i].open(filename.c_str());

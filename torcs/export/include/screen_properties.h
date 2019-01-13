@@ -1,1 +1,1 @@
-/home/wueli/Torcs/torcs/src/libs/tgfclient/screen_properties.h
+/home/wueli/Torcs-SP/torcs/src/libs/tgfclient/screen_properties.h

@@ -1,1 +1,1 @@
-/home/wueli/Torcs/torcs/src/libs/confscreens/graphconfig.h
+/home/wueli/Torcs-SP/torcs/src/libs/confscreens/graphconfig.h

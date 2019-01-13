@@ -44,7 +44,7 @@ OggSoundStream.o: OggSoundStream.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h SoundStream.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -99,7 +99,7 @@ OggSoundStream.o: OggSoundStream.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h
 OpenALMusicPlayer.o: OpenALMusicPlayer.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -119,7 +119,7 @@ OpenALMusicPlayer.o: OpenALMusicPlayer.cpp /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -195,7 +195,7 @@ OpenALMusicPlayer.o: OpenALMusicPlayer.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h OpenALMusicPlayer.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h OpenALMusicPlayer.h \
  /usr/include/AL/al.h /usr/include/AL/alc.h SoundStream.h
 musicplayer.o: musicplayer.cpp /usr/include/stdc-predef.h musicplayer.h \
  /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
@@ -245,7 +245,7 @@ musicplayer.o: musicplayer.cpp /usr/include/stdc-predef.h musicplayer.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h /usr/include/string.h \
- /usr/include/strings.h /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /usr/include/strings.h /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/libio.h \
@@ -296,9 +296,9 @@ musicplayer.o: musicplayer.cpp /usr/include/stdc-predef.h musicplayer.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h OggSoundStream.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h OggSoundStream.h \
  /usr/include/vorbis/vorbisfile.h /usr/include/vorbis/codec.h \
  /usr/include/ogg/ogg.h /usr/include/ogg/os_types.h \
  /usr/include/ogg/config_types.h SoundStream.h OpenALMusicPlayer.h \

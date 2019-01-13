@@ -52,7 +52,7 @@ mainnfsperf.o: mainnfsperf.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/std_abs.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_ext.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -95,4 +95,4 @@ mainnfsperf.o: mainnfsperf.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h

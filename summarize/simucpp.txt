@@ -1,0 +1,29 @@
+# simu.cpp
+
+SimUpdate(tSituation *s, double deltaTime, int telemetry)
+
+SimAtmosphereUpdate(car, s);
+ctrlCheck(car);
+SimSteerUpdate(car);
+SimGearboxUpdate(car);
+SimEngineUpdateTq(car);
+
+if (!(s->_raceState & RM_RACE_PRESTART))
+    SimCarUpdateWheelPos
+    SimBrakeSystemUpdate
+    SimAeroUpdate
+    SimWingUpdate 2x
+    SimWheelUpdateRide 4x
+    SimAxleUpdate 2x
+    SimWheelUpdateForce \
+    SimWheelUpdateTire  | 4x
+    SimWheelResetWear   /
+    SimTransmissionUpdate
+    SimWheelUpdateRotation
+    SimCarUpdate ⇐
+else
+    SimEngineUpdateRpm(car, 0.0)
+
+SimCarCollideCars(s)
+SimCarUpdate2(car, s) /* telemetry */
+/* copy back the data to carElt */

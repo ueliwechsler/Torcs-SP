@@ -1,7 +1,7 @@
 entry.o: entry.cpp /usr/include/stdc-predef.h \
- /home/wueli/Torcs/torcs/export/include/client.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h /usr/include/stdio.h \
+ /home/wueli/Torcs-SP/torcs/export/include/client.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -94,9 +94,9 @@ entry.o: entry.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -115,10 +115,10 @@ entry.o: entry.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
  /usr/include/plib/ssg.h /usr/include/plib/sg.h \
  /usr/include/plib/ssgconf.h mainmenu.h splash.h \
- /home/wueli/Torcs/torcs/export/include/musicplayer/musicplayer.h
+ /home/wueli/Torcs-SP/torcs/export/include/musicplayer/musicplayer.h
 mainmenu.o: mainmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -137,8 +137,8 @@ mainmenu.o: mainmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -214,9 +214,9 @@ mainmenu.o: mainmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -235,9 +235,9 @@ mainmenu.o: mainmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/singleplayer.h \
- /home/wueli/Torcs/torcs/export/include/driverconfig.h mainmenu.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/singleplayer.h \
+ /home/wueli/Torcs-SP/torcs/export/include/driverconfig.h mainmenu.h \
  exitmenu.h optionmenu.h
 splash.o: splash.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h \
  /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
@@ -295,11 +295,11 @@ splash.o: splash.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
  /usr/include/c++/7/cstring /usr/include/string.h /usr/include/strings.h \
- /home/wueli/Torcs/torcs/config.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/config.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -341,9 +341,9 @@ splash.o: splash.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /usr/include/plib/ul.h /usr/include/ctype.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h /usr/include/plib/ul.h /usr/include/ctype.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
@@ -357,7 +357,7 @@ splash.o: splash.cpp /usr/include/stdc-predef.h /usr/include/GL/glut.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h splash.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h splash.h \
  mainmenu.h
 exitmenu.o: exitmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -377,8 +377,8 @@ exitmenu.o: exitmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -454,9 +454,9 @@ exitmenu.o: exitmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -475,7 +475,7 @@ exitmenu.o: exitmenu.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h exitmenu.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h exitmenu.h \
  mainmenu.h
 optionmenu.o: optionmenu.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
@@ -496,8 +496,8 @@ optionmenu.o: optionmenu.cpp /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -573,9 +573,9 @@ optionmenu.o: optionmenu.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -594,8 +594,8 @@ optionmenu.o: optionmenu.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h optionmenu.h \
- /home/wueli/Torcs/torcs/export/include/graphconfig.h \
- /home/wueli/Torcs/torcs/export/include/simuconfig.h \
- /home/wueli/Torcs/torcs/export/include/soundconfig.h \
- /home/wueli/Torcs/torcs/export/include/openglconfig.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ optionmenu.h /home/wueli/Torcs-SP/torcs/export/include/graphconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simuconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/soundconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/openglconfig.h

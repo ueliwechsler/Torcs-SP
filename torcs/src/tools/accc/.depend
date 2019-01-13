@@ -128,7 +128,7 @@ linuxspec.o: ../../linux/linuxspec.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -168,8 +168,8 @@ linuxspec.o: ../../linux/linuxspec.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/os.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/os.h
 ac3dload.o: ac3dload.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -222,8 +222,8 @@ ac3dload.o: ac3dload.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h /usr/include/ctype.h \
  /usr/include/c++/7/cstring /usr/include/string.h /usr/include/strings.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h /usr/include/c++/7/math.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h /usr/include/c++/7/math.h \
  /usr/include/c++/7/cmath /usr/include/c++/7/bits/cpp_type_traits.h \
  /usr/include/c++/7/ext/type_traits.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \

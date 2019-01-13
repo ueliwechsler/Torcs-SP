@@ -50,8 +50,8 @@ controlconfig.o: controlconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -94,9 +94,9 @@ controlconfig.o: controlconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -115,21 +115,21 @@ controlconfig.o: controlconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/robot.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h \
- /home/wueli/Torcs/torcs/export/include/playerpref.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h controlconfig.h mouseconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robot.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /home/wueli/Torcs-SP/torcs/export/include/playerpref.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h controlconfig.h mouseconfig.h \
  joystickconfig.h
 graphconfig.o: graphconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
@@ -183,8 +183,8 @@ graphconfig.o: graphconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -227,9 +227,9 @@ graphconfig.o: graphconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -248,17 +248,17 @@ graphconfig.o: graphconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h graphconfig.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h graphconfig.h
 mouseconfig.o: mouseconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -311,8 +311,8 @@ mouseconfig.o: mouseconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -355,9 +355,9 @@ mouseconfig.o: mouseconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -376,19 +376,19 @@ mouseconfig.o: mouseconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/robot.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h \
- /home/wueli/Torcs/torcs/export/include/playerpref.h controlconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robot.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /home/wueli/Torcs-SP/torcs/export/include/playerpref.h controlconfig.h \
  mouseconfig.h
 driverconfig.o: driverconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
@@ -442,8 +442,8 @@ driverconfig.o: driverconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -486,9 +486,9 @@ driverconfig.o: driverconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -507,22 +507,22 @@ driverconfig.o: driverconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/robot.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h \
- /home/wueli/Torcs/torcs/export/include/playerpref.h \
- /home/wueli/Torcs/torcs/export/include/controlconfig.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h driverconfig.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robot.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /home/wueli/Torcs-SP/torcs/export/include/playerpref.h \
+ /home/wueli/Torcs-SP/torcs/export/include/controlconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h driverconfig.h
 joystickconfig.o: joystickconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -575,8 +575,8 @@ joystickconfig.o: joystickconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -619,9 +619,9 @@ joystickconfig.o: joystickconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -640,21 +640,21 @@ joystickconfig.o: joystickconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/robot.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h driverconfig.h \
- /home/wueli/Torcs/torcs/export/include/playerpref.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h controlconfig.h joystickconfig.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robot.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h driverconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/playerpref.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h controlconfig.h joystickconfig.h
 simuconfig.o: simuconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -707,8 +707,8 @@ simuconfig.o: simuconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -751,9 +751,9 @@ simuconfig.o: simuconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -772,10 +772,10 @@ simuconfig.o: simuconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/raceinit.h simuconfig.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceinit.h simuconfig.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h
 soundconfig.o: soundconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -828,8 +828,8 @@ soundconfig.o: soundconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -872,9 +872,9 @@ soundconfig.o: soundconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -893,19 +893,19 @@ soundconfig.o: soundconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/raceinit.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/musicplayer/musicplayer.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h soundconfig.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceinit.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/musicplayer/musicplayer.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h soundconfig.h
 openglconfig.o: openglconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -958,8 +958,8 @@ openglconfig.o: openglconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -1002,9 +1002,9 @@ openglconfig.o: openglconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -1023,16 +1023,16 @@ openglconfig.o: openglconfig.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/raceinit.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h openglconfig.h
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceinit.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h openglconfig.h

@@ -60,7 +60,7 @@ track.o: track.cpp /usr/include/stdc-predef.h /usr/include/c++/7/stdlib.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -92,15 +92,16 @@ track.o: track.cpp /usr/include/stdc-predef.h /usr/include/c++/7/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/assert.h /usr/include/c++/7/cstring /usr/include/string.h \
- /usr/include/strings.h /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h trackinc.h
+ /usr/include/strings.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h trackinc.h
 trackitf.o: trackitf.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -145,7 +146,7 @@ trackitf.o: trackitf.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/7/bits/std_abs.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h /usr/include/stdio.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/libio.h \
@@ -196,13 +197,13 @@ trackitf.o: trackitf.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h trackinc.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h trackinc.h
 trackutil.o: trackutil.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -257,7 +258,7 @@ trackutil.o: trackutil.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h /usr/include/stdio.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/libio.h \
@@ -297,15 +298,16 @@ trackutil.o: trackutil.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/assert.h /usr/include/c++/7/cstring /usr/include/string.h \
- /usr/include/strings.h /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /usr/include/strings.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
  /usr/include/plib/ul.h /usr/include/ctype.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -383,7 +385,7 @@ track3.o: track3.cpp /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -415,15 +417,16 @@ track3.o: track3.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/assert.h /usr/include/c++/7/cstring /usr/include/string.h \
- /usr/include/strings.h /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
+ /usr/include/strings.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
  /usr/include/plib/sg.h /usr/include/plib/ul.h /usr/include/ctype.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -439,8 +442,8 @@ track3.o: track3.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h trackinc.h
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h trackinc.h
 track4.o: track4.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -503,7 +506,7 @@ track4.o: track4.cpp /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -535,15 +538,16 @@ track4.o: track4.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/assert.h /usr/include/c++/7/cstring /usr/include/string.h \
- /usr/include/strings.h /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
+ /usr/include/strings.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
  /usr/include/plib/sg.h /usr/include/plib/ul.h /usr/include/ctype.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -559,5 +563,5 @@ track4.o: track4.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h trackinc.h
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h trackinc.h

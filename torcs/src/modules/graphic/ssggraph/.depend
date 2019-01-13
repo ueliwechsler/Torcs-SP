@@ -94,8 +94,8 @@ grmain.o: grmain.cpp /usr/include/stdc-predef.h /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -119,23 +119,24 @@ grmain.o: grmain.cpp /usr/include/stdc-predef.h /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- grmain.h /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grshadow.h grskidmarks.h \
- grsmoke.h grcar.h grscreen.h grcam.h grboard.h grtrackmap.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h grscene.h \
- grmultitexstate.h grtexture.h grloadsgi.h grsound.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ grmain.h /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grshadow.h \
+ grskidmarks.h grsmoke.h grcar.h grscreen.h grcam.h grboard.h \
+ grtrackmap.h /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ grscene.h grmultitexstate.h grtexture.h grloadsgi.h grsound.h \
  /usr/include/plib/sl.h /usr/include/plib/slPortability.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/linux/soundcard.h \
  /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
@@ -237,10 +238,10 @@ grboard.o: grboard.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /usr/include/c++/7/cstring /home/wueli/Torcs/torcs/config.h grcam.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /usr/include/c++/7/cstring /home/wueli/Torcs-SP/torcs/config.h grcam.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -263,24 +264,24 @@ grboard.o: grboard.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grboard.h grtrackmap.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grboard.h grtrackmap.h \
  /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
  /usr/include/GL/glu.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
  /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h grmain.h \
  grssgext.h grtexture.h grloadsgi.h grshadow.h grskidmarks.h grsmoke.h \
- grcar.h grutil.h /home/wueli/Torcs/torcs/export/include/robottools.h
+ grcar.h grutil.h /home/wueli/Torcs-SP/torcs/export/include/robottools.h
 ssggraph.o: ssggraph.cpp /usr/include/stdc-predef.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/include/inttypes.h /usr/include/features.h \
@@ -296,8 +297,8 @@ ssggraph.o: ssggraph.cpp /usr/include/stdc-predef.h /usr/include/GL/gl.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h /usr/include/stdio.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/libio.h \
@@ -380,10 +381,11 @@ ssggraph.o: ssggraph.cpp /usr/include/stdc-predef.h /usr/include/GL/gl.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /usr/include/plib/js.h /usr/include/plib/ul.h /usr/include/ctype.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/glu.h /usr/include/plib/js.h /usr/include/plib/ul.h \
+ /usr/include/ctype.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
@@ -397,19 +399,20 @@ ssggraph.o: ssggraph.cpp /usr/include/stdc-predef.h /usr/include/GL/gl.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h grmain.h \
  /usr/include/plib/ssg.h /usr/include/plib/sg.h \
  /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /usr/include/plib/sg.h /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h
 grcam.o: grcam.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -500,10 +503,10 @@ grcam.o: grcam.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -527,23 +530,23 @@ grcam.o: grcam.cpp /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
  /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h grcam.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grscreen.h grboard.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h grcam.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grscreen.h grboard.h \
  grtrackmap.h /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
  /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h grmain.h \
  grscene.h grmultitexstate.h grtexture.h grloadsgi.h grshadow.h \
  grskidmarks.h grsmoke.h grcar.h grutil.h
 grcar.o: grcar.cpp /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
@@ -637,8 +640,8 @@ grcar.o: grcar.cpp /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -662,24 +665,25 @@ grcar.o: grcar.cpp /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grmain.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grshadow.h grskidmarks.h \
- grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h grloadsgi.h \
- grboard.h grtrackmap.h grssgext.h grutil.h grcarlight.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grshadow.h \
+ grskidmarks.h grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h \
+ grtexture.h /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ grloadsgi.h grboard.h grtrackmap.h grssgext.h grutil.h grcarlight.h
 grscreen.o: grscreen.cpp /usr/include/stdc-predef.h \
  /usr/include/plib/ssg.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -771,8 +775,8 @@ grscreen.o: grscreen.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -796,23 +800,23 @@ grscreen.o: grscreen.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grutil.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- grloadsgi.h grmain.h /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grscene.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/glu.h /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grutil.h grtexture.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ grloadsgi.h grmain.h /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grscene.h \
  grmultitexstate.h grshadow.h grskidmarks.h grcar.h grboard.h \
  grtrackmap.h grcarlight.h grscreen.h grcam.h
 grscene.o: grscene.cpp /usr/include/stdc-predef.h \
@@ -911,8 +915,8 @@ grscene.o: grscene.cpp /usr/include/stdc-predef.h \
  /usr/include/plib/ssgaFire.h /usr/include/plib/ssgAux.h \
  /usr/include/plib/ssgaWaveSystem.h /usr/include/plib/ssgaLensFlare.h \
  /usr/include/plib/ssgaScreenDump.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -936,24 +940,25 @@ grscene.o: grscene.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grmain.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grshadow.h grskidmarks.h \
- grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h grloadsgi.h grutil.h \
- grssgext.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grshadow.h \
+ grskidmarks.h grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h \
+ grtexture.h /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ grloadsgi.h grutil.h grssgext.h
 grutil.o: grutil.cpp /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
  /usr/include/c++/7/cmath \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -1045,8 +1050,8 @@ grutil.o: grutil.cpp /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1070,19 +1075,20 @@ grutil.o: grutil.cpp /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grutil.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grutil.h grtexture.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
  grloadsgi.h grmultitexstate.h grscene.h
 grshadow.o: grshadow.cpp /usr/include/stdc-predef.h \
  /usr/include/plib/ssg.h /usr/include/stdio.h \
@@ -1266,8 +1272,8 @@ grsmoke.o: grsmoke.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1291,24 +1297,25 @@ grsmoke.o: grsmoke.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grmain.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grshadow.h grskidmarks.h \
- grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h grloadsgi.h \
- grboard.h grtrackmap.h grssgext.h grutil.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grshadow.h \
+ grskidmarks.h grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h \
+ grtexture.h /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ grloadsgi.h grboard.h grtrackmap.h grssgext.h grutil.h
 grskidmarks.o: grskidmarks.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/math.h /usr/include/c++/7/cmath \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -1400,8 +1407,8 @@ grskidmarks.o: grskidmarks.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1425,21 +1432,22 @@ grskidmarks.o: grskidmarks.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h grmain.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grshadow.h grskidmarks.h \
- grcar.h grcam.h grscene.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h grloadsgi.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grshadow.h \
+ grskidmarks.h grcar.h grcam.h grscene.h grmultitexstate.h grtexture.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h grloadsgi.h \
  grboard.h grtrackmap.h grssgext.h grutil.h
 grloadac.o: grloadac.cpp /usr/include/stdc-predef.h \
  /usr/include/plib/ssg.h /usr/include/stdio.h \
@@ -1533,9 +1541,9 @@ grloadac.o: grloadac.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h /usr/include/zlib.h /usr/include/zconf.h \
  grssgext.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1559,21 +1567,21 @@ grloadac.o: grloadac.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/glu.h /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
  grloadsgi.h grvtxtable.h grmultitexstate.h grmain.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h
 grmultitexstate.o: grmultitexstate.cpp /usr/include/stdc-predef.h \
  /usr/include/plib/ssg.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -1665,9 +1673,9 @@ grmultitexstate.o: grmultitexstate.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1691,20 +1699,20 @@ grmultitexstate.o: grmultitexstate.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- grloadsgi.h grmain.h /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/glu.h /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ grloadsgi.h grmain.h /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h
 grvtxtable.o: grvtxtable.cpp /usr/include/stdc-predef.h \
  /usr/include/plib/ssg.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -1796,9 +1804,9 @@ grvtxtable.o: grvtxtable.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h grvtxtable.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -1822,25 +1830,25 @@ grvtxtable.o: grvtxtable.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- grloadsgi.h grmain.h /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grcam.h grshadow.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/glu.h /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ grloadsgi.h grmain.h /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grcam.h grshadow.h \
  grskidmarks.h grscene.h grcar.h grutil.h
 grtrackmap.o: grtrackmap.cpp /usr/include/stdc-predef.h grtrackmap.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h /usr/include/stdio.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -1933,12 +1941,12 @@ grtrackmap.o: grtrackmap.cpp /usr/include/stdc-predef.h grtrackmap.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
  /usr/include/plib/sg.h /usr/include/plib/ul.h /usr/include/ctype.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -1954,18 +1962,18 @@ grtrackmap.o: grtrackmap.cpp /usr/include/stdc-predef.h grtrackmap.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/GL/gl.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glut.h \
  /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
  /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h grmain.h \
  /usr/include/plib/ssg.h /usr/include/plib/sg.h \
  /usr/include/plib/ssgconf.h
 grtexture.o: grtexture.cpp /usr/include/stdc-predef.h grtexture.h \
@@ -2059,9 +2067,9 @@ grtexture.o: grtexture.cpp /usr/include/stdc-predef.h grtexture.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -2085,18 +2093,18 @@ grtexture.o: grtexture.cpp /usr/include/stdc-predef.h grtexture.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/glu.h /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
  grloadsgi.h
 grcarlight.o: grcarlight.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/math.h /usr/include/c++/7/cmath \
@@ -2189,8 +2197,8 @@ grcarlight.o: grcarlight.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/plib/ssgconf.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -2214,24 +2222,25 @@ grcarlight.o: grcarlight.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/robottools.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grmain.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h grshadow.h grskidmarks.h \
- grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h grtexture.h \
- /home/wueli/Torcs/torcs/export/include/glfeatures.h grloadsgi.h \
- grboard.h grtrackmap.h grssgext.h grutil.h grcarlight.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/robottools.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grmain.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h grshadow.h \
+ grskidmarks.h grsmoke.h grcar.h grcam.h grscene.h grmultitexstate.h \
+ grtexture.h /home/wueli/Torcs-SP/torcs/export/include/glfeatures.h \
+ grloadsgi.h grboard.h grtrackmap.h grssgext.h grutil.h grcarlight.h
 CarSoundData.o: CarSoundData.cpp /usr/include/stdc-predef.h \
  SoundInterface.h /usr/include/plib/sl.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -2326,8 +2335,8 @@ CarSoundData.o: CarSoundData.cpp /usr/include/stdc-predef.h \
  /usr/include/asm-generic/ioctls.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -2351,17 +2360,17 @@ CarSoundData.o: CarSoundData.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/c++/7/vector \
- /usr/include/c++/7/bits/stl_algobase.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_algobase.h \
  /usr/include/c++/7/bits/functexcept.h \
  /usr/include/c++/7/bits/exception_defines.h \
  /usr/include/c++/7/ext/numeric_traits.h \
@@ -2488,8 +2497,8 @@ TorcsSound.o: TorcsSound.cpp /usr/include/stdc-predef.h TorcsSound.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h /usr/include/AL/al.h \
  /usr/include/AL/alc.h /usr/include/AL/alut.h sound_defines.h \
- SoundInterface.h /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ SoundInterface.h /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -2513,17 +2522,17 @@ TorcsSound.o: TorcsSound.cpp /usr/include/stdc-predef.h TorcsSound.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/c++/7/vector \
- /usr/include/c++/7/bits/stl_algobase.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_algobase.h \
  /usr/include/c++/7/bits/functexcept.h \
  /usr/include/c++/7/bits/exception_defines.h \
  /usr/include/c++/7/ext/numeric_traits.h \
@@ -2647,8 +2656,8 @@ PlibSoundInterface.o: PlibSoundInterface.cpp /usr/include/stdc-predef.h \
  /usr/include/asm-generic/ioctls.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -2672,17 +2681,17 @@ PlibSoundInterface.o: PlibSoundInterface.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/c++/7/vector \
- /usr/include/c++/7/bits/stl_algobase.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_algobase.h \
  /usr/include/c++/7/bits/functexcept.h \
  /usr/include/c++/7/bits/exception_defines.h \
  /usr/include/c++/7/ext/numeric_traits.h \
@@ -2809,8 +2818,8 @@ OpenalSoundInterface.o: OpenalSoundInterface.cpp \
  /usr/include/asm-generic/ioctls.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -2834,17 +2843,17 @@ OpenalSoundInterface.o: OpenalSoundInterface.cpp \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/c++/7/vector \
- /usr/include/c++/7/bits/stl_algobase.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_algobase.h \
  /usr/include/c++/7/bits/functexcept.h \
  /usr/include/c++/7/bits/exception_defines.h \
  /usr/include/c++/7/ext/numeric_traits.h \
@@ -2929,8 +2938,8 @@ grsound.o: grsound.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h /usr/include/stdio.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/libio.h \
@@ -2972,9 +2981,9 @@ grsound.o: grsound.cpp /usr/include/stdc-predef.h \
  /usr/include/assert.h /usr/include/c++/7/stdlib.h \
  /usr/include/c++/7/cstdlib /usr/include/c++/7/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -2993,19 +3002,19 @@ grsound.o: grsound.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/car.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/portability.h \
- /home/wueli/Torcs/torcs/config.h grsound.h grcam.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/plib/sl.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h /usr/include/plib/sg.h \
+ /home/wueli/Torcs-SP/torcs/export/include/portability.h \
+ /home/wueli/Torcs-SP/torcs/config.h grsound.h grcam.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h /usr/include/plib/sl.h \
  /usr/include/plib/slPortability.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/linux/soundcard.h \
  /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
@@ -3142,8 +3151,8 @@ SoundInterface.o: SoundInterface.cpp /usr/include/stdc-predef.h \
  /usr/include/asm-generic/ioctls.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h /usr/include/plib/sg.h \
- /home/wueli/Torcs/torcs/export/include/raceman.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/raceman.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -3167,17 +3176,17 @@ SoundInterface.o: SoundInterface.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
  /usr/include/c++/7/cstring \
- /home/wueli/Torcs/torcs/export/include/osspec.h \
- /home/wueli/Torcs/torcs/export/include/car.h \
- /home/wueli/Torcs/torcs/export/include/track.h \
- /home/wueli/Torcs/torcs/export/include/tmath/linalg_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v2_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v3_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/v4_t.h \
- /home/wueli/Torcs/torcs/export/include/tmath/straight2_t.h \
- /home/wueli/Torcs/torcs/export/include/graphic.h \
- /home/wueli/Torcs/torcs/export/include/simu.h /usr/include/c++/7/vector \
- /usr/include/c++/7/bits/stl_algobase.h \
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /home/wueli/Torcs-SP/torcs/export/include/car.h \
+ /home/wueli/Torcs-SP/torcs/export/include/track.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/linalg_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v3_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/v4_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tmath/straight2_t.h \
+ /home/wueli/Torcs-SP/torcs/export/include/graphic.h \
+ /home/wueli/Torcs-SP/torcs/export/include/simu.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_algobase.h \
  /usr/include/c++/7/bits/functexcept.h \
  /usr/include/c++/7/bits/exception_defines.h \
  /usr/include/c++/7/ext/numeric_traits.h \

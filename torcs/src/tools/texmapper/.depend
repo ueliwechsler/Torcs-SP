@@ -92,8 +92,8 @@ maintexmapper.o: maintexmapper.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/plib/ssgconf.h /usr/include/GL/glut.h \
  /usr/include/GL/freeglut_std.h /usr/include/GL/glu.h \
- /home/wueli/Torcs/torcs/export/include/tgfclient.h \
- /home/wueli/Torcs/torcs/export/include/tgf.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgfclient.h \
+ /home/wueli/Torcs-SP/torcs/export/include/tgf.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -116,8 +116,9 @@ maintexmapper.o: maintexmapper.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/asm/param.h /usr/include/asm-generic/param.h \
- /home/wueli/Torcs/torcs/export/include/osspec.h /usr/include/plib/js.h \
- /home/wueli/Torcs/torcs/export/include/screen_properties.h
+ /home/wueli/Torcs-SP/torcs/export/include/osspec.h \
+ /usr/include/plib/js.h \
+ /home/wueli/Torcs-SP/torcs/export/include/screen_properties.h
 ssgSaveAC.o: ssgSaveAC.cpp /usr/include/stdc-predef.h ssgLocal.h \
  /usr/include/plib/ssg.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
