@@ -10,111 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aea2ba6-eca9-4cac-b9a1-172373ad4c58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/torcs/.torcs.rc" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/.torcs.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/config.log" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/config.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/config.status" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/config.status" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/data/sim/S3_wheel_stock1_slow_50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/data/sim/S3_wheel_stock2_slow_50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Basic.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Basic.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Point.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Quaternion.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Quaternion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Tuple3.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Tuple3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Tuple4.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Tuple4.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/3D/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/3D/Vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/SOLID/solid.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/SOLID/solid.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/car.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/car.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/client.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/client.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/controlconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/controlconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/driverconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/driverconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/exitmenu.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/exitmenu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/glfeatures.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/glfeatures.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/graphconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/graphconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/graphic.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/graphic.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/joystickconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/joystickconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/ANN.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/ANN.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/Distribution.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/Distribution.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/List.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/MathFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/MathFunctions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/ann_policy.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/ann_policy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/learn_debug.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/learn_debug.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/policy.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/policy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/real.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/real.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/learning/string_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/learning/string_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/mouseconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/mouseconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/musicplayer/OggSoundStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/musicplayer/OggSoundStream.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/musicplayer/OpenALMusicPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/musicplayer/OpenALMusicPlayer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/musicplayer/SoundStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/musicplayer/SoundStream.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/musicplayer/musicplayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/musicplayer/musicplayer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/openglconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/openglconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/os.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/os.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/osspec.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/osspec.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/playerpref.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/playerpref.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/portability.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/portability.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/raceinit.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/raceinit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/raceman.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/raceman.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/racescreens.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/racescreens.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/replay.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/replay.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/robot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/robottools.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/robottools.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/screen_properties.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/screen_properties.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/simu.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/simu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/simuconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/simuconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/singleplayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/singleplayer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/soundconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/soundconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/telemetry.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/telemetry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tgf.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tgf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tgfclient.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tgfclient.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tmath/linalg_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tmath/linalg_t.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tmath/straight2_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tmath/straight2_t.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tmath/v2_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tmath/v2_t.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tmath/v3_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tmath/v3_t.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/tmath/v4_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/tmath/v4_t.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/track.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/track.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/xml.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/xml.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/export/include/xmlparse.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/export/include/xmlparse.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/doc/torcsdoc.conf" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/doc/torcsdoc.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/berniw/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/berniw/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/berniw2/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/berniw2/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/berniw3/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/berniw3/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/bt/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/bt/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/damned/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/damned/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/human/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/human/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/inferno/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/inferno/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/inferno2/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/inferno2/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/lliaw/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/lliaw/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/olethros/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/olethros/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/sparkle/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/sparkle/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/drivers/tita/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/drivers/tita/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/client/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/client/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/confscreens/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/confscreens/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/learning/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/learning/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/musicplayer/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/musicplayer/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/raceengineclient/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/raceengineclient/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/racescreens/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/racescreens/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/robottools/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/robottools/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/tgf/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/tgf/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/tgfclient/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/tgfclient/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/txml/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/txml/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/libs/txml/gennmtab/gennmtab" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/libs/txml/gennmtab/gennmtab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/linux/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/linux/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/linux/torcs-bin" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/linux/torcs-bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/graphic/ssggraph/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/graphic/ssggraph/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/SOLID-2.0/src/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/SOLID-2.0/src/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/telemetry/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/telemetry/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/track/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/track/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/accc/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/accc/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/accc/accc-bin" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/accc/accc-bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/nfs2ac/nfs2ac-bin" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/nfs2ac/nfs2ac-bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/nfsperf/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/nfsperf/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/nfsperf/nfsperf-bin" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/nfsperf/nfsperf-bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/texmapper/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/texmapper/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/texmapper/texmapper-bin" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/texmapper/texmapper-bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/trackgen/.depend" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/trackgen/.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/tools/trackgen/trackgen-bin" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/tools/trackgen/trackgen-bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/ueli/simucpp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/data/cars/categories/stock1/stock1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/data/cars/categories/stock1/stock1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/src/interfaces/car.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/interfaces/car.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,26 +23,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="448" column="66" selection-start-line="448" selection-start-column="66" selection-end-line="448" selection-end-column="66" />
+            <state relative-caret-position="585">
+              <caret line="266" column="58" lean-forward="true" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/car.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="526" column="24" selection-start-line="526" selection-start-column="24" selection-end-line="526" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="525" column="45" lean-forward="true" selection-start-line="525" selection-start-column="45" selection-end-line="525" selection-end-column="45" />
+            <state relative-caret-position="6465">
+              <caret line="559" column="21" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>InitOutputFiles</find>
+      <find>SimWriteData</find>
+      <find>PRM_LEN</find>
+      <find>GfParmGetNum</find>
+      <find>SECT_CAR</find>
+      <find>SimCarUpdate2</find>
+      <find>Minv</find>
+      <find>max_vel</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,9 +81,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" />
+        <option value="$PROJECT_DIR$/torcs/export/include/car.h" />
+        <option value="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h" />
+        <option value="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp" />
+        <option value="$PROJECT_DIR$/torcs/src/interfaces/car.h" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="219" />
     <option name="y" value="304" />
@@ -165,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,17 +185,18 @@
       <updated>1546979915018</updated>
       <workItem from="1546979916434" duration="6000" />
       <workItem from="1546979942836" duration="708000" />
+      <workItem from="1547628822267" duration="3548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="714000" />
+    <option name="totallyTimeSpent" value="4262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="302" width="1920" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1656017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,17 +220,52 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp">
+    <entry file="file://$PROJECT_DIR$/summarize/simucpp.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="448" column="66" selection-start-line="448" selection-start-column="66" selection-end-line="448" selection-end-column="66" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/export/include/car.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="519" column="51" selection-start-line="519" selection-start-column="51" selection-end-line="519" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="525" column="45" lean-forward="true" selection-start-line="525" selection-start-column="45" selection-end-line="525" selection-end-column="45" />
+        <state relative-caret-position="6465">
+          <caret line="559" column="21" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="266" column="58" lean-forward="true" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/car.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="526" column="24" selection-start-line="526" selection-start-column="24" selection-end-line="526" selection-end-column="24" />
         </state>
       </provider>
     </entry>
