@@ -59,6 +59,9 @@ typedef struct
     t3Dd	statGC;		/* static pos of GC */
     t3Dd	Iinv;		/* inverse of inertial moment along the car's 3 axis */
 
+    /* wueli*/
+    tdble	maxVel;		/* maximal Velocity */
+
     /* dynamic */
     tdble	fuel;		/* current fuel load */
     tDynPt	DynGC;		/* GC local data except position */

@@ -523,6 +523,9 @@ typedef struct CarElt
 #define PRM_TYPE		"type"
 #define PRM_SIZE		"size"
 
+/* WUELI */
+#define PRM_MAX_VEL		"max velocity"
+
 /* Tires */
 #define PRM_MU			"mu"
 #define PRM_RIMDIAM		"rim diameter"

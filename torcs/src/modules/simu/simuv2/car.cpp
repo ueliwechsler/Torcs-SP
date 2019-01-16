@@ -46,6 +46,8 @@ SimCarConfig(tCar *car)
 	car->dimension.z = GfParmGetNum(hdle, SECT_CAR, PRM_HEIGHT, (char*)NULL, 1.2f);
 	car->mass        = GfParmGetNum(hdle, SECT_CAR, PRM_MASS, (char*)NULL, 1500);
 	car->Minv        = 1.0 / car->mass;
+	/* wueli*/
+	car->maxVel		 = GfParmGetNum(hdle, SECT_CAR, PRM_MAX_VEL, (char*)NULL, 14);
 	gcfr             = GfParmGetNum(hdle, SECT_CAR, PRM_FRWEIGHTREP, (char*)NULL, .5);
 	gcfrl            = GfParmGetNum(hdle, SECT_CAR, PRM_FRLWEIGHTREP, (char*)NULL, .5);
 	gcrrl            = GfParmGetNum(hdle, SECT_CAR, PRM_RRLWEIGHTREP, (char*)NULL, .5);
@@ -250,14 +252,14 @@ SimCarUpdateSpeed(tCar *car)
 	car->DynGCg.vel.x += car->DynGCg.acc.x * SimDeltaTime;
 	car->DynGCg.vel.y += car->DynGCg.acc.y * SimDeltaTime;
 	car->DynGCg.vel.z += car->DynGCg.acc.z * SimDeltaTime;
+
 	// wueli: Changed to implement a max speed
-	double maxSpeed;
+	// maxVel can be set in the config files!
 	double speed;
-	maxSpeed = 14;
 	speed = sqrt(car->DynGCg.vel.x*car->DynGCg.vel.x + car->DynGCg.vel.y*car->DynGCg.vel.y + car->DynGCg.vel.z*car->DynGCg.vel.z);
-	if( speed > maxSpeed) {
-		car->DynGCg.vel.x *= maxSpeed / speed;
-		car->DynGCg.vel.y *= maxSpeed / speed;
+	if( speed > car->maxVel) {
+		car->DynGCg.vel.x *= car->maxVel / speed;
+		car->DynGCg.vel.y *= car->maxVel / speed;
 	};
 	////end MaxSpeed
 
