@@ -11,10 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1aea2ba6-eca9-4cac-b9a1-172373ad4c58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/data/cars/categories/stock1/stock1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/data/cars/categories/stock1/stock1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/interfaces/car.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/interfaces/car.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/src/interfaces/raceman.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/interfaces/raceman.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +28,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="266" column="58" lean-forward="true" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
+            <state relative-caret-position="3990">
+              <caret line="266" column="58" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/car.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="79" column="14" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/car.h">
+        <entry file="file://$PROJECT_DIR$/torcs/export/include/raceman.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/raceman.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="526" column="24" selection-start-line="526" selection-start-column="24" selection-end-line="526" selection-end-column="24" />
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -45,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="930">
               <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
             </state>
           </provider>
@@ -54,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6465">
+            <state relative-caret-position="8385">
               <caret line="559" column="21" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
             </state>
           </provider>
@@ -72,6 +91,11 @@
       <find>SimCarUpdate2</find>
       <find>Minv</find>
       <find>max_vel</find>
+      <find>r</find>
+      <find>ra</find>
+      <find>0.002</find>
+      <find>RCM_MAX_DT_SIM</find>
+      <find>RCM_MAX_DT_SIMU</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +109,8 @@
         <option value="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h" />
         <option value="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp" />
         <option value="$PROJECT_DIR$/torcs/src/interfaces/car.h" />
+        <option value="$PROJECT_DIR$/torcs/export/include/raceman.h" />
+        <option value="$PROJECT_DIR$/torcs/src/interfaces/raceman.h" />
       </list>
     </option>
   </component>
@@ -186,17 +212,18 @@
       <workItem from="1546979916434" duration="6000" />
       <workItem from="1546979942836" duration="708000" />
       <workItem from="1547628822267" duration="3548000" />
+      <workItem from="1547669583052" duration="511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4262000" />
+    <option name="totallyTimeSpent" value="4773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="302" width="1920" height="1202" extended-state="6" />
+    <frame x="0" y="302" width="1920" height="1202" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1687966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,31 +268,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
+    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6465">
-          <caret line="559" column="21" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
+        <state relative-caret-position="3990">
+          <caret line="266" column="58" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/carstruct.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
+        <state relative-caret-position="930">
           <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/car.cpp">
+    <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="266" column="58" lean-forward="true" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
+        <state relative-caret-position="8385">
+          <caret line="559" column="21" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/car.h">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="79" column="14" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/src/interfaces/raceman.h">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="526" column="24" selection-start-line="526" selection-start-column="24" selection-end-line="526" selection-end-column="24" />
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torcs/export/include/raceman.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
         </state>
       </provider>
     </entry>
