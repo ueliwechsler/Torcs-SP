@@ -35,6 +35,7 @@ tCar *SimCarTable = 0;
 tdble SimDeltaTime;
 int SimTelemetry;
 static int SimNbCars = 0;
+bool carSet = false;
 
 tdble rulesFuelFactor = 1.0f;
 tdble rulesDamageFactor = 1.0f;
@@ -405,9 +406,16 @@ SimUpdate(tSituation *s, double deltaTime, int telemetry)
 			SimWheelUpdateRotation(car);
 			CHECK(car);
 			SimCarUpdate(car, s);
-			// wueli: Set Car 1 postion to const
+
+			// wueli: Set Car1 (second car) postion to the location provided!!
 			if (ncar == 1){
-			SimCarSetPos(car, 11.194, 201.479, 0.3, 1.5); // x, y, z, az
+				if(!carSet){
+					SimCarSetPos(car, 50, 7, 0.3, 0); // x, y, z, az
+					carSet = true;
+				} else{
+					SimCarSetPos(car, car->DynGCg.pos.x + 0.002*10, 7, 0.3, 0);
+				};
+
 			};
 
 
