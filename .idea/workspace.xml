@@ -9,7 +9,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aea2ba6-eca9-4cac-b9a1-172373ad4c58" name="Default Changelist" comment="" />
+    <list default="true" id="1aea2ba6-eca9-4cac-b9a1-172373ad4c58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/video/simplescreenrecorder/S4_ueli.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="413" column="34" selection-start-line="413" selection-start-column="34" selection-end-line="413" selection-end-column="34" />
+            <state relative-caret-position="585">
+              <caret line="440" column="32" selection-start-line="440" selection-start-column="32" selection-end-line="440" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -75,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="630">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -104,6 +111,7 @@
       <find>update</find>
       <find>SimTelemetry</find>
       <find>SimCarSetPos</find>
+      <find>carSet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,17 +233,18 @@
       <workItem from="1547803108144" duration="95000" />
       <workItem from="1549822499002" duration="2169000" />
       <workItem from="1549882441035" duration="370000" />
+      <workItem from="1549884899910" duration="1007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7407000" />
+    <option name="totallyTimeSpent" value="8414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="302" width="1920" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17358893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17518637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,15 +319,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="630">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="413" column="34" selection-start-line="413" selection-start-column="34" selection-end-line="413" selection-end-column="34" />
+        <state relative-caret-position="585">
+          <caret line="440" column="32" selection-start-line="440" selection-start-column="32" selection-end-line="440" selection-end-column="32" />
         </state>
       </provider>
     </entry>

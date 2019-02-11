@@ -35,7 +35,12 @@ tCar *SimCarTable = 0;
 tdble SimDeltaTime;
 int SimTelemetry;
 static int SimNbCars = 0;
-bool carSet = false;
+
+//Wueli
+bool car1Set = false;
+bool car2Set = false;
+bool car3Set = false;
+//Wueli
 
 tdble rulesFuelFactor = 1.0f;
 tdble rulesDamageFactor = 1.0f;
@@ -409,15 +414,42 @@ SimUpdate(tSituation *s, double deltaTime, int telemetry)
 
 			// wueli: Set Car1 (second car) postion to the location provided!!
 			if (ncar == 1){
-				if(!carSet){
-					SimCarSetPos(car, 50, 7, 0.3, 0); // x, y, z, az
-					carSet = true;
+			int car1_x2 = 7;
+			int car1_x1 = 100;
+
+				if(!car1Set){
+					SimCarSetPos(car, car1_x1, car1_x2, 0.3, 0); // x, y, z, az
+					car1Set = true;
 				} else{
-					SimCarSetPos(car, car->DynGCg.pos.x + 0.002*10, 7, 0.3, 0);
+					SimCarSetPos(car, car->DynGCg.pos.x + 0.002*10, car1_x2, 0.3, 0);
 				};
 
 			};
+            if (ncar == 2){
+                int car2_x2 = 11;
+                int car2_x1 = 80;
 
+                if(!car2Set){
+                    SimCarSetPos(car, car2_x1, car2_x2, 0.3, 0); // x, y, z, az
+                    car2Set = true;
+                } else{
+                    SimCarSetPos(car, car->DynGCg.pos.x + 0.002*10, car2_x2, 0.3, 0);
+                };
+
+            };
+            if (ncar == 3){
+                int car3_x2 = 11;
+                int car3_x1 = 120;
+
+                if(!car3Set){
+                    SimCarSetPos(car, car3_x1, car3_x2, 0.3, 0); // x, y, z, az
+                    car3Set = true;
+                } else{
+                    SimCarSetPos(car, car->DynGCg.pos.x + 0.002*10, car3_x2, 0.3, 0);
+                };
+
+            };
+            // wueli!!!
 
 			CHECK(car);
 		} else {
