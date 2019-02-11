@@ -1,0 +1,59 @@
+PROBLEM:  Your kernels are not signed with a key known to your firmware. This system will fail to boot in a Secure Boot environment.
+https://lukasmestan.com/your-kernels-are-unsigned-this-system-will-fail-to-boot-in-a-secure-boot-environment/
+
+
+$ uname -r
+4.18.16-surface-linux-surface
+
+$ ls /boot/
+config-4.15.0-43-generic
+config-4.15.0-45-generic
+config-4.18.16-surface-linux-surface
+efi
+grub
+initrd.img-4.15.0-43-generic
+initrd.img-4.15.0-45-generic
+initrd.img-4.18.16-surface-linux-surface
+memtest86+.bin
+memtest86+.elf
+memtest86+_multiboot.bin
+System.map-4.15.0-43-generic
+System.map-4.15.0-45-generic
+System.map-4.18.16-surface-linux-surface
+vmlinuz-4.15.0-43-generic
+vmlinuz-4.15.0-45-generic
+vmlinuz-4.18.16-surface-linux-surface <= The thing we want!
+
+$ dpkg -S /boot/vmlinuz-4.18.16-surface-linux-surface 
+linux-image-4.18.16-surface-linux-surface: /boot/vmlinuz-4.18.16-surface-linux-surface
+
+$ dpkg --list | grep 4.18.16
+ii  linux-headers-4.18.16-surface-linux-surface 4.18.16-surface-linux-surface-14             amd64        Linux kernel headers for 4.18.16-surface-linux-surface on amd64
+ii  linux-image-4.18.16-surface-linux-surface   4.18.16-surface-linux-surface-14             amd64        Linux kernel, version 4.18.16-surface-linux-surface
+ii  linux-libc-dev                              4.18.16-surface-linux-surface-14             amd64        Linux support headers for userspace development
+
+~$ dpkg --list | grep 4.18.16 | awk '{print $2}'
+linux-headers-4.18.16-surface-linux-surface
+linux-image-4.18.16-surface-linux-surface
+linux-libc-dev
+
+https://github.com/jakeday/linux-surface/blob/master/SIGNING.md
+
+SECURE BOOT disable in UEFI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
