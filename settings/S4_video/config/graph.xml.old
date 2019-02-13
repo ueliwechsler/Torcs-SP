@@ -66,12 +66,12 @@
 
     <section name="0">
       <attnum name="fovy-9-0" val="9"/>
-      <attstr name="current driver" val="S3_wheel_stock1"/>
+      <attstr name="current driver" val="PleaseJeb"/>
       <attnum name="camera" val="0"/>
       <attnum name="camera head list" val="0"/>
     </section>
 
-    <section name="S3_wheel_stock1">
+    <section name="PleaseJeb">
       <attnum name="camera" val="0"/>
       <attnum name="camera head list" val="0"/>
     </section>

@@ -57,9 +57,7 @@ extern void SimCarUpdate2(tCar *car, tSituation*);
 void SimWriteData(tCar *car, tSituation *, int i);
 extern void InitOutputFiles(int nCars);
 extern void SimCarSetPos(tCar *car,  double x,  double y, double z, double phi);
-extern bool car1Set;
-extern bool car2Set;
-extern bool car3Set;
+extern bool carSet[30];
 //
 
 

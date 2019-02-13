@@ -11,9 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1aea2ba6-eca9-4cac-b9a1-172373ad4c58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/car0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car0.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/car1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/video/simplescreenrecorder/S4_ueli.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/car3.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp" afterDir="false" />
     </list>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="440" column="32" selection-start-line="440" selection-start-column="32" selection-end-line="440" selection-end-column="32" />
+            <state relative-caret-position="214">
+              <caret line="416" lean-forward="true" selection-start-line="416" selection-end-line="416" />
             </state>
           </provider>
         </entry>
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="585">
+              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -112,6 +112,7 @@
       <find>SimTelemetry</find>
       <find>SimCarSetPos</find>
       <find>carSet</find>
+      <find>max</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,16 +134,17 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="219" />
-    <option name="y" value="304" />
-    <option name="width" value="876" />
-    <option name="height" value="1200" />
+    <option name="x" value="134" />
+    <option name="y" value="81" />
+    <option name="width" value="2866" />
+    <option name="height" value="1919" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,18 +234,19 @@
       <workItem from="1547803108144" duration="95000" />
       <workItem from="1549822499002" duration="2169000" />
       <workItem from="1549882441035" duration="370000" />
-      <workItem from="1549884899910" duration="1007000" />
+      <workItem from="1549884899910" duration="1822000" />
+      <workItem from="1550045765496" duration="1321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8414000" />
+    <option name="totallyTimeSpent" value="10550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="302" width="1920" height="1202" extended-state="6" />
+    <frame x="67" y="425" width="1853" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17518637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17669795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,15 +321,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/sim.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="585">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/torcs/src/modules/simu/simuv2/simu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="440" column="32" selection-start-line="440" selection-start-column="32" selection-end-line="440" selection-end-column="32" />
+        <state relative-caret-position="214">
+          <caret line="416" lean-forward="true" selection-start-line="416" selection-end-line="416" />
         </state>
       </provider>
     </entry>
